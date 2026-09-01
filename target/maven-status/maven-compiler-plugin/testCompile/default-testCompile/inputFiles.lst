@@ -1,0 +1,3 @@
+/home/jschendroski/personal-projects/Microservice_EmailSender/src/test/java/com/ms/email/EmailApplicationTests.java
+/home/jschendroski/personal-projects/Microservice_EmailSender/src/test/java/com/ms/email/loadtest/EmailPerformanceLoadTest.java
+/home/jschendroski/personal-projects/Microservice_EmailSender/src/test/java/com/ms/email/loadtest/LatencyMockMailSender.java

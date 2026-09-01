@@ -1,6 +1,7 @@
 package com.ms.email.Enum;
 
 public enum StatusEmail {
-    SETN,
+    PENDING,
+    SENT,
     ERROR;
 }

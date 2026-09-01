@@ -1,0 +1,13 @@
+/home/jschendroski/personal-projects/Microservice_EmailSender/src/main/java/com/ms/email/Config/LoadTestMailConfig.java
+/home/jschendroski/personal-projects/Microservice_EmailSender/src/main/java/com/ms/email/Config/RabbitMQConfig.java
+/home/jschendroski/personal-projects/Microservice_EmailSender/src/main/java/com/ms/email/Consumers/EmailConsumer.java
+/home/jschendroski/personal-projects/Microservice_EmailSender/src/main/java/com/ms/email/Controller/EmailController.java
+/home/jschendroski/personal-projects/Microservice_EmailSender/src/main/java/com/ms/email/Dto/EmailDto.java
+/home/jschendroski/personal-projects/Microservice_EmailSender/src/main/java/com/ms/email/EmailApplication.java
+/home/jschendroski/personal-projects/Microservice_EmailSender/src/main/java/com/ms/email/Enum/StatusEmail.java
+/home/jschendroski/personal-projects/Microservice_EmailSender/src/main/java/com/ms/email/Handler/GlobalExceptionHandler.java
+/home/jschendroski/personal-projects/Microservice_EmailSender/src/main/java/com/ms/email/Model/EmailModel.java
+/home/jschendroski/personal-projects/Microservice_EmailSender/src/main/java/com/ms/email/Producers/EmailProducer.java
+/home/jschendroski/personal-projects/Microservice_EmailSender/src/main/java/com/ms/email/Repository/EmailRepository.java
+/home/jschendroski/personal-projects/Microservice_EmailSender/src/main/java/com/ms/email/Service/EmailSendException.java
+/home/jschendroski/personal-projects/Microservice_EmailSender/src/main/java/com/ms/email/Service/EmailService.java
