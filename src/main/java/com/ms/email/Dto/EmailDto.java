@@ -4,6 +4,9 @@ import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import lombok.Data;
 
+/**
+ * Payload de requisição para envio de e-mail (síncrono e assíncrono).
+ */
 @Data
 public class EmailDto {
     @NotBlank
