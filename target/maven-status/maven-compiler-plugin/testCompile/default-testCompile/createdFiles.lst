@@ -1,6 +1,0 @@
-com/ms/email/loadtest/EmailPerformanceLoadTest$MailMockConfig.class
-com/ms/email/loadtest/EmailPerformanceLoadTest.class
-com/ms/email/EmailApplicationTests.class
-com/ms/email/loadtest/EmailPerformanceLoadTest$Result.class
-com/ms/email/loadtest/LatencyMockMailSender.class
-com/ms/email/loadtest/EmailPerformanceLoadTest$Stats.class
