@@ -142,14 +142,4 @@ Execução local com `requests=200`, `concurrency=50`, `smtpLatencyMs=150`:
 
 ### Carga HTTP real com k6 (opcional)
 
-Alternativa usando [k6](https://k6.io/) via Docker (não precisa instalar o k6). Suba a aplicação com o profile `loadtest` (SMTP mockado) e rode o script:
-
-```bash
-# 1) app com SMTP mockado (profile loadtest)
-SPRING_PROFILES_ACTIVE=loadtest ./mvnw spring-boot:run
-
-# 2) em outro terminal, dispara a carga
-./scripts/run-k6.sh http://host.docker.internal:8080 100 1000
-```
-
 O profile `loadtest` ativa o `LoadTestMailConfig`, que substitui o `JavaMailSender` real por um mock com latência (`loadtest.smtp.latency-ms`, default 150ms) — garantindo que nenhum e-mail seja enviado.
