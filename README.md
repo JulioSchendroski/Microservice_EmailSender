@@ -140,6 +140,4 @@ Execução local com `requests=200`, `concurrency=50`, `smtpLatencyMs=150`:
 
 **Leitura dos números:** no modo síncrono o cliente **bloqueia** durante todo o envio SMTP (~150ms × fila de espera pela concorrência), resultando em latência ~11x maior e throughput ~8x menor. O modo assíncrono responde imediatamente (`202 Accepted`) e o trabalho pesado é drenado em background pelo consumer — o cliente não paga a latência do SMTP. Note que o *processamento total* do async (drenagem) leva mais tempo porque um único consumer processa a fila serialmente; o ganho é na **latência percebida pelo cliente** e na **capacidade de absorver picos** sem derrubar o tempo de resposta.
 
-### Carga HTTP real com k6 (opcional)
-
 O profile `loadtest` ativa o `LoadTestMailConfig`, que substitui o `JavaMailSender` real por um mock com latência (`loadtest.smtp.latency-ms`, default 150ms) — garantindo que nenhum e-mail seja enviado.
